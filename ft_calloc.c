@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Reserva memoria para un array de count elementos de size bytes cada uno y la inicializa a cero. */
 void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;

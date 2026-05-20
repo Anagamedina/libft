@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Llena los primeros len bytes del área de memoria b con el byte constante c. */
 void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char	ch;

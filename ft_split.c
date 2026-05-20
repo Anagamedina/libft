@@ -71,6 +71,7 @@ static void	*ft_free(char **matrix, int count)
 	return (NULL);
 }
 
+/* Divide la cadena s en un array de cadenas usando el carácter c como delimitador. */
 char	**ft_split(const char *s, char c)
 {
 	int		j;

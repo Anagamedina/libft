@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Escribe el carácter c en el descriptor de archivo dado. */
 void	ft_putchar_fd(char c, int fd)
 {
 	write (fd, &c, 1);

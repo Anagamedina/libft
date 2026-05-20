@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Escribe el número entero n en el descriptor de archivo dado. */
 void	ft_putnbr_fd(int n, int fd)
 {
 	if (n == -2147483648)

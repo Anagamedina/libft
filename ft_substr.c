@@ -28,6 +28,7 @@ static	size_t	ft_check_size(size_t size_s, size_t len, int start)
 	return (len_new_ptr);
 }
 
+/* Crea una subcadena de s que empieza en start y tiene longitud len. */
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substr;

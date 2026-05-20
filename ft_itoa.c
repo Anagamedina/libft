@@ -12,21 +12,7 @@
 
 #include "libft.h"
 
-static int	get_num_len(int n)
-{
-	int	len;
-
-	len = 0;
-	if (n <= 0)
-		len++;
-	while (n != 0)
-	{
-		n /= 10;
-		len++;
-	}
-	return (len);
-}
-
+/* Convierte el número entero n en una cadena de caracteres (char *). */
 char	*ft_itoa(int n)
 {
 	char	*str;

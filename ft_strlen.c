@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Calcula y devuelve la longitud de la cadena str. */
 size_t	ft_strlen(const char *str)
 {
 	size_t	i;

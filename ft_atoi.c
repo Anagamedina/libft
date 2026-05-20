@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Convierte el inicio de la cadena str en un valor entero (int). */
 int	ft_atoi(const char *str)
 {
 	unsigned int	i;

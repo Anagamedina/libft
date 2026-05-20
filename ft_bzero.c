@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Llena con ceros (bytes nulos) los primeros n bytes del área de memoria s. */
 void	ft_bzero(void *s, size_t n)
 {
 	size_t			i;

@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Localiza la última aparición del carácter c en la cadena s. */
 char	*ft_strrchr(const char *s, int c)
 {
 	int		len;

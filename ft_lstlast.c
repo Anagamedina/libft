@@ -10,19 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include <unistd.h>
-# include <stdlib.h>
-# include <stdio.h>
+#include "libft.h"
 
-//lst: el principio de la lista. 
-
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-
-}					t_list;
-
+/* Devuelve el último nodo de la lista. */
 t_list	*ft_lstlast(t_list *lst)
 {
 	if (lst == NULL)

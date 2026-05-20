@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Crea un nuevo nodo con el contenido especificado. */
 t_list  *ft_lstnew(void *content)
 {
     t_list	*new_nodo;

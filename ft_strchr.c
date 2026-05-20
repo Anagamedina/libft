@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Localiza la primera aparición del carácter c en la cadena s. */
 char	*ft_strchr(const char *s, int c)
 {
 	char	ch;

@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Convierte un carácter en minúscula a mayúscula. */
 int	ft_toupper(int c)
 {
 	if (c >= 97 && c <= 122)

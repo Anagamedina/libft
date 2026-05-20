@@ -17,6 +17,7 @@
 	free(content);
 }*/
 
+/* Elimina y libera el nodo 'lst' dado y todos los siguientes. */
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*current;

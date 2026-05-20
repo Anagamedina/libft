@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Copia la cadena src en dst, limitando el tamaño total a size. */
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	i;

@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Escribe la cadena s en el descriptor de archivo dado, seguida de un salto de línea. */
 void	ft_putendl_fd(char *s, int fd)
 {
 	int	i;

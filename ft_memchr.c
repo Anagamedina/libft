@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Busca la primera aparición del carácter c en los primeros n bytes de s. */
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	int					i;

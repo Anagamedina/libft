@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Comprueba si el carácter es imprimible (incluyendo el espacio). */
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c < 127)

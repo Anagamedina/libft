@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Crea una copia de la cadena s1 reservando memoria con malloc. */
 char	*ft_strdup(const char *s1)
 {
 	size_t	size_s1;

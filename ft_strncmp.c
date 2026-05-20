@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Compara los primeros n caracteres de las cadenas s1 y s2. */
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t			i;

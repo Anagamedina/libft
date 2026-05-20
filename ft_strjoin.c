@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Reserva memoria y devuelve una nueva cadena, resultado de concatenar s1 y s2. */
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*ptr;

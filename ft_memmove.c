@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Copia len bytes desde src a dst, manejando correctamente el solapamiento. */
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	unsigned char	*dst_ptr;

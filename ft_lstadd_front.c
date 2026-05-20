@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Añade el nodo 'new' al principio de la lista 'lst'. */
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	if (new == NULL || lst == NULL )

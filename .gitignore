@@ -1,0 +1,18 @@
+# Compilación
+*.o
+*.a
+*.so
+*.out
+
+# Ejecutables
+a.out
+*.exe
+
+# Archivos temporales
+*.swp
+*~
+.DS_Store
+
+# Directorios de compilación (si existieran)
+obj/
+bin/

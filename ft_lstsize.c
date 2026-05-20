@@ -10,19 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include <unistd.h>
-# include <stdlib.h>
-# include <stdio.h>
+#include "libft.h"
 
-//lst: el principio de la lista
-
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-
-}					t_list;
-
+/* Cuenta el número de nodos de una lista. */
 int	ft_lstsize(t_list *lst)
 {
 	int i;

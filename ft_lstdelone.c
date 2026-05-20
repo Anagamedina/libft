@@ -17,6 +17,7 @@ void	del(void *content)
 	free(content);
 }
 
+/* Libera la memoria del contenido de un nodo y después el nodo mismo. */
 void	ft_lstdelone(t_list *lst, void (*del)(void*))
 {
 	if (lst)

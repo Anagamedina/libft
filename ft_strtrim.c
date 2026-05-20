@@ -26,6 +26,7 @@ static int	ft_char_in_set(char const *set, char c)
 	return (0);
 }
 
+/* Elimina los caracteres de set del principio y del final de s1. */
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	int		start;

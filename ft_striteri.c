@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Aplica la función f a cada carácter de la cadena s, pasando su índice. */
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int	i;

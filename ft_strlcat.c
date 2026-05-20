@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Concatena la cadena src al final de dst, limitando el tamaño total a dstsize. */
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;

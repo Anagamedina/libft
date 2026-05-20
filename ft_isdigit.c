@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+/* Comprueba si el carácter es un dígito numérico (0-9). */
 int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')

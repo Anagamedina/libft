@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Escribe la cadena s en el descriptor de archivo dado. */
 void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;

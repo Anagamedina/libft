@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Crea una nueva cadena aplicando la función f a cada carácter de la cadena s. */
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char			*str;

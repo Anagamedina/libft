@@ -12,6 +12,7 @@
 
 #include "libft.h"
 
+/* Comprueba si el carácter es alfanumérico (letra o número). */
 int	ft_isalnum(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')

@@ -12,15 +12,7 @@
 
 #include "libft.h"
 
-/*void	*f(void *content)
-{
-    int *original = (int *)content;
-    int *duplicated = (int *)malloc(sizeof(int));
-    if (!duplicated)
-        return NULL;
-    *duplicated = *original * 2;
-    return (duplicated);
-}*/
+/* Crea una nueva lista aplicando la función 'f' a cada nodo de la lista 'lst'. */
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_lst;
